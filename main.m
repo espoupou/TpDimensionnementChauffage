@@ -94,7 +94,6 @@ fprintf('Puissance hydraulique eau = %.2f W\n', P_hyd_eau);
 fprintf('Puissance electrique eau = %.2f W\n', P_elec_eau);
 
 %% ETAPE 4 : cout annuel
-% Remplacer selon ton hypothese
 nb_heures = 2500;      % h/an
 prix_kWh = 0.20;       % €/kWh
 
