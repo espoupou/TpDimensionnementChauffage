@@ -95,7 +95,7 @@ fprintf('Puissance electrique eau = %.2f W\n', P_elec_eau);
 
 %% ETAPE 4 : cout annuel
 % Remplacer selon ton hypothese
-nb_heures = 8760;      % h/an
+nb_heures = 2500;      % h/an
 prix_kWh = 0.20;       % €/kWh
 
 E_annuelle = (P_elec_eau/1000) * nb_heures;   % kWh/an
